@@ -13,6 +13,9 @@ For details, visit:
 RELEASE-NOTES:
 =================================================
 
+Ableton AG patch (10-09-13):
+  * fixed recursion bug (see suds_recursion.patch by thavidu see ticket #239 https://fedorahosted.org/suds)
+
 version 0.3.6 (04-31-09):
   * Change hard coded /tmp/suds to tempfile.gettempdir() and create suds/ on demand.
   * Fix return type for Any.get_attribute().
