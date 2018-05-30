@@ -21,7 +21,7 @@ import suds
 from setuptools import setup, find_packages
 
 setup(
-    name="suds",
+    name="suds_ableton",
     version=suds.__version__,
     description="Lightweight SOAP client",
     author="Jeff Ortel",
